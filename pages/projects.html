@@ -1,1 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Portfolio Website</title>
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+</head>
+<body>
+    {% include "templates/header.html" %}
+
+    <main>
+        <section id="projects">
+            <h1>My Projects</h1>
+            <div class="project-container">
+                <!-- Add project cards for each project -->
+                {% include "templates/project-card.html" %}
+            </div>
+        </section>
+    </main>
+
+    {% include "templates/footer.html" %}
+
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/utils.js"></script>
+</body>
+</html>
 
