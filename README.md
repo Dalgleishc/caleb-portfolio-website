@@ -7,11 +7,8 @@ Website contains:
 - About
 - Skills
 - Qualification
-- Services
 - Portfolio
-- Project in mind
-- Testimonial
 - Contact
 - Footer 
 
-- Inspired design by Bedimcode-Alexa design 🙌
+- Inspired design by Bedimcode-Alexa design 
